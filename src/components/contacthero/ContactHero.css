@@ -1,0 +1,32 @@
+.contact-banner {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 67vh;
+    position: relative;
+}
+
+.contact-banner::before {
+    content: "";
+    background: url("https://images.unsplash.com/photo-1603468620905-8de7d86b781e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80");
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.contact-banner .headings h1 {
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem;
+}
+
+.headings {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
