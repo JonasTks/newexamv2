@@ -1,13 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-
-
-import weekend from './weekend.png'
-import weekendLogin from './weekendLogin.png'
-import portfolio from './portfolio.png'
 import Myocco from './Myocco.png'
-import jcole from './jcole.jpg'
-import man from './man.jpg'
 
 import './Project.css'
 
@@ -52,56 +45,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="project-card">
-                        <img src={Myocco} alt="image" />
-                        <h2 className="project-title">Project Title</h2>
-                        <div className="project-details">
-                            <p>This is a project</p>
-                            <div className="project-button">
-                                <NavLink to="/projects" className="btn btn-transparent">View</NavLink>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="project-card">
-                        <img src={Myocco} alt="image" />
-                        <h2 className="project-title">Project Title</h2>
-                        <div className="project-details">
-                            <p>This is a project</p>
-                            <div className="project-button">
-                                <NavLink to="/projects" className="btn btn-transparent">View</NavLink>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="project-card">
-                        <img src={Myocco} alt="image" />
-                        <h2 className="project-title">Project Title</h2>
-                        <div className="project-details">
-                            <p>This is a project</p>
-                            <div className="project-button">
-                                <NavLink to="/projects" className="btn btn-transparent">View</NavLink>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="project-card">
-                        <img src={Myocco} alt="image" />
-                        <h2 className="project-title">Project Title</h2>
-                        <div className="project-details">
-                            <p>This is a project</p>
-                            <div className="project-button">
-                                <NavLink to="/projects" className="btn btn-transparent">View</NavLink>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="project-card">
-                        <img src={Myocco} alt="image" />
-                        <h2 className="project-title">Project Title</h2>
-                        <div className="project-details">
-                            <p>This is a project</p>
-                            <div className="project-button">
-                                <NavLink to="/projects" className="btn btn-transparent">View</NavLink>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
 
